@@ -1,0 +1,20 @@
+name: victron_ble
+description: Victron Instant Readout advertisement decoder (AES-128-CTR) - passive battery data.
+version: 0.1.0
+publish_to: none
+repository: https://github.com/ril3y/victron_ble
+topics: [bluetooth, ble, victron, battery]
+
+environment:
+  sdk: ^3.13.5
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  pointycastle: ^3.9.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
